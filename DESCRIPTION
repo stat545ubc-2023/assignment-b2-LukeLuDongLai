@@ -1,0 +1,17 @@
+Package: groupmissing
+Title: Count Missing Values by Group
+Version: 0.1.0
+Authors@R: person("Donglai", "Lu", email = "ludl@student.ubc.ca", role = c("aut", "cre"))
+Description: Provides a function to count missing values in a dataset, 
+    grouped by a specified column. This helps in quick assessment 
+    of data quality and understanding the distribution of missing 
+    values across different groups within the data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  dplyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
